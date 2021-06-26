@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://favoshuai.github.io/IntelligencePlus.ipa</string>
+					<string>https://favoshuai.github.io/PerfectLife.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -29,15 +29,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.qntestlocal</string>
+				<string>com.znkj.yzlife</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>3.10.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
 				<string>com.apple.platform.iphoneos</string>
 				<key>title</key>
-				<string>QiniuDemo</string>
+				<string>PerfectLife</string>
 			</dict>
 		</dict>
 	</array>
