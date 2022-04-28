@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        img {
+            text-align:center;
+
+        }
+        .box {
+            position:absolute;
+            width:300px;
+            height:300px;
+            margin:auto;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+        }
+        .download{
+            margin-bottom:20px;
+        }
         div{
             margin: auto;
             top: 80px;
             width:50%;
             height:40px;
-            background-color:yellow;
+<!--            background-color:yellow;-->
             border:2px solid #ccc;
             text-align:center;
         }
@@ -20,12 +37,16 @@
             left:0px;
             right:0px;
             height:40px;
+            line-height:40px;
             text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <div><a href="itms-services://?action=download-manifest&url=https://favoshuai.github.io/manifest.plist">download</a></div>
+    <div class="box"><img src="./icon_512x512.png" width="120" height="120"/>
+        <div class="download"><a href="itms-services://?action=download-manifest&url=https://favoshuai.github.io/manifest.plist">点我</a></div></div>
+    
+    
     
     
 </body>
